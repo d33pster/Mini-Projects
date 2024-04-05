@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import tkinter
 from tkinter import *
 from tkinter import messagebox
@@ -127,3 +129,8 @@ def button_C_is_Clicked():
     A = 0
     operator = ""
     the_data.set(var)
+
+
+def main():
+    # do something
+    print("hehe")
